@@ -1,12 +1,12 @@
 body,
 html {
-  background-color: #2d4b96;
+  background-color: white;
   -webkit-tap-highlight-color: transparent;
 }
 
 .main-container {
   letter-spacing: 0.2rem;
-  color: white;
+  color: black;
   display: -webkit-flex;
   -webkit-align-items: center;
   flex-direction: row;
@@ -70,7 +70,7 @@ html {
 }
 
 .game__mole {
-  background-image: url(../public/assets/pumpkin.png);
+  background-image: url(../public/assets/egg.png);
   background-size: 50px;
   background-repeat: no-repeat;
   background-position: top;
@@ -86,7 +86,7 @@ html {
 }
 
 .game__cross {
-  background-image: url(../public/assets/smash.svg);
+  background-image: url(../public/assets/egg3.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 60px;
@@ -101,7 +101,7 @@ html {
 .game__start-button {
   font-size: 1rem;
   padding: 0.6rem 0.6rem 0.7rem 0.6rem;
-  color: white;
+  color: black;
   border: 2px solid #fcb942;
   background: none;
   border-radius: 5px;
